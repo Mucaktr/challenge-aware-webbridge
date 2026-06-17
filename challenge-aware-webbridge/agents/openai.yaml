@@ -1,0 +1,6 @@
+interface:
+  display_name: "Challenge Aware WebBridge"
+  short_description: "Handle browser verification with safe handoff"
+  default_prompt: "Use $challenge-aware-webbridge to detect browser verification pages, hand off safely, and resume once the user is through."
+policy:
+  allow_implicit_invocation: true

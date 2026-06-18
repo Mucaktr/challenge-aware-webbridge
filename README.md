@@ -8,7 +8,7 @@ Tarayici dogrulama kesintilerini sakin ve toparlanabilir is akislarina donusturu
 
 ### Overview
 
-Challenge Aware WebBridge is a publishable Codex wrapper repository for a Codex skill built around Kimi WebBridge sessions. It helps an agent detect browser verification interstitials, pause cleanly for user handoff, preserve session state, and resume the original task once the challenge page clears.
+Challenge Aware WebBridge is a publishable wrapper repository for a skill built around Kimi WebBridge sessions. It helps an agent detect browser verification interstitials, pause cleanly for user handoff, preserve session state, and resume the original task once the challenge page clears.
 
 This repository is intentionally designed for safe, human-in-the-loop browsing workflows. It is not an anti-bot bypass package.
 
@@ -25,7 +25,7 @@ In many real workflows, the right move is not to force the page. The right move 
 
 ### What this repository includes
 
-- A Codex skill folder ready to install
+- A skill folder ready to install
 - Helper scripts for Kimi WebBridge daemon requests
 - Detection logic for verification pages
 - A polling helper that waits for challenge clearance
@@ -49,7 +49,7 @@ In many real workflows, the right move is not to force the page. The right move 
 
 ### Suggested GitHub description
 
-> A Codex skill for Kimi WebBridge that detects browser verification pages, hands off safely to the user, and resumes the workflow once the challenge clears.
+> A skill for Kimi WebBridge that detects browser verification pages, hands off safely to the user, and resumes the workflow once the challenge clears.
 
 ### Suggested short pitch
 
@@ -57,11 +57,11 @@ In many real workflows, the right move is not to force the page. The right move 
 
 ### Suggested release blurb
 
-> Challenge Aware WebBridge gives Codex a calm, reusable playbook for challenge pages: detect the interstitial, hand off cleanly to the user, preserve the session, and resume the task when the page clears.
+> Challenge Aware WebBridge gives a calm, reusable playbook for challenge pages: detect the interstitial, hand off cleanly to the user, preserve the session, and resume the task when the page clears.
 
 ### Suggested GitHub topics
 
-`codex` `agent-skill` `browser-automation` `kimi-webbridge` `human-in-the-loop` `challenge-detection`
+`agent-skill` `browser-automation` `kimi-webbridge` `human-in-the-loop` `challenge-detection`
 
 ### Repository layout
 
@@ -74,7 +74,7 @@ challenge-aware-webbridge/
     |-- LICENSE.txt
     |-- SKILL.md
     |-- agents/
-    |   `-- openai.yaml
+    |   `-- .yaml
     |-- references/
     |   |-- challenge-patterns.md
     |   `-- user-messaging.md
